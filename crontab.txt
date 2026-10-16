@@ -1,0 +1,1 @@
+0 9 * * * /home/ubuntu/shell-assigment/monitor.sh >> /home/ubuntu/shell-assigment/monitor_logs.txt 2>&1

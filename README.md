@@ -91,10 +91,10 @@ Repository: [Alpha1ne/EC2-Monitoring](https://github.com/Alpha1ne/EC2-Monitoring
 
 **Task 6: Log Monitoring Output**
 
-Saved the monitoring output to `monitor_logs.txt`.
+Saved the monitoring output to `monitor-log.txt`.
 
 ```bash
-./monitor.sh >> monitor_logs.txt
+./monitor.sh >> monitor-log.txt
 ```
 
 The `>>` operator appends output to the end of the file. If the file does not exist, it is created automatically.
@@ -102,7 +102,7 @@ The `>>` operator appends output to the end of the file. If the file does not ex
 To view the saved logs:
 
 ```bash
-cat monitor_logs.txt
+cat monitor-log.txt
 ```
 
 **Task 7: Enhance the Monitoring Script**
@@ -122,7 +122,7 @@ crontab -e
 Example schedule to run the script daily at 9:00 AM:
 
 ```cron
-0 9 * * * /home/ubuntu/shell-assigment/monitor.sh >> /home/ubuntu/shell-assigment/monitor_logs.txt 2>&1
+0 10 * * * /home/ubuntu/shell-assigment/monitor.sh >> /home/ubuntu/shell-assigment/monitor-log.txt 2>&1
 ```
 
 Replace the example paths with the actual paths on your EC2 instance.
@@ -168,13 +168,13 @@ chmod +x monitor.sh
 ### Step 4: Save the Monitoring Output
 
 ```bash
-./monitor.sh >> monitor_logs.txt
+./monitor.sh >> monitor-log.txt
 ```
 
 ### Step 5: View the Log File
 
 ```bash
-cat monitor_logs.txt
+cat monitor-log.txt
 ```
 
 ## 📊 Actual Monitoring Output

@@ -31,13 +31,13 @@ The project uses a Bash script named `monitor.sh` to display running services, C
 ```text
 EC2-Monitoring/
 ├── monitor.sh
-├── monitor_logs.txt
+├── monitor-log.txt
 ├── crontab.txt
 └── README.md
 ```
 
 - `monitor.sh` — Displays system monitoring information.
-- `monitor_logs.txt` — Stores monitoring reports.
+- `monitor-log.txt` — Stores monitoring reports.
 - `crontab.txt` — Optional documentation of the Cron schedule.
 - `README.md` — Project documentation.
 

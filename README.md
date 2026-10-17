@@ -283,6 +283,20 @@ The `df -h` command also displayed other mounted filesystems, including `/boot`,
 
 The root filesystem `/` contains the main Linux filesystem. The `df -h` command displays disk capacity in a human-readable format.
 
+
+## 📸 Project Screenshots
+
+These screenshots show the EC2 environment, the Cron schedule, and the monitoring script output. Sensitive account, instance, IP-address, and DNS details have been masked where visible.
+
+### 1. AWS EC2 Dashboard
+![AWS EC2 dashboard with sensitive details redacted](screenshots/ec2-dashboard-redacted.png)
+
+### 2. Cron Automation
+![Cron schedule for the monitoring script](screenshots/cron-schedule.png)
+
+### 3. Monitoring Script Output
+![Monitoring script output with the private host details redacted](screenshots/monitor-script-output-redacted.png)
+
 ## 👨‍💻 Author
 
 **Athul C**
